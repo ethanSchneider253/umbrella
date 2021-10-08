@@ -1,0 +1,230 @@
+:root {
+    --prim: #a0c23c;
+    --mainBG: #fafafa;
+    --colophonBGC: #202020;
+    --textColor: #2b2d2a;
+    --soListItem: #b4b3b4;
+}
+/* section 1 icons */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+
+.icon-bubbles {
+    width: 1.125em;
+}
+
+/* end icons */
+
+
+
+.icons {
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+.logo {
+    margin: 5px 0 0 0;
+}
+
+.logo h1:nth-child(1) {
+    color: var(--prim);
+}
+
+.logo-text {
+    margin: 0 0 0 50px;
+}
+
+.topNav a {
+    color: var(--textColor);
+}
+
+.carouselSec {
+    width: 100%;
+    padding: 0;
+}
+
+main {
+    background-color: var(--mainBG);
+}
+
+.sec1 .icons {
+    font-size: 80px;
+    padding: 5px;
+    background-color: var(--prim);
+    border-radius: 50%;
+    color: white;
+    /* border: 10px solid #fff; */
+}
+
+.iconBox {
+    text-align: center;
+}
+
+.card-img-top{
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.btn {
+    background-color: var(--prim);
+    color: var(#fff);
+    border: none;
+}
+
+.sec3 a {
+    color: var(--mainBG);
+    font-size: 20px;
+}
+
+.backToTop {
+    margin: 10px 0;
+    background-color: var(--prim);
+    border-radius: 50%;
+}
+
+.footer .icon {
+    color: var(--soListItem);
+}
+
+.archiveListItem {
+    line-height: 50px;
+    font-size: 18px;
+    border-bottom: 1px dotted var(--soListItem);
+}
+
+.archiveListItem a {
+    color: var(--textColor);
+}
+
+.contactListItem {
+    line-height: 50px;
+}
+
+.contactList :nth-child(1) {
+    font-size: 14px;
+}
+
+input {
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+input[type="text"], textarea {
+    background-color: var(--mainBG);
+}
+
+.colophonRow {
+    background-color: var(--colophonBGC);
+    color: var(--soListItem);
+}
+
+.coloNav a {
+    color: var(--soListItem);
+}
+
+@media (max-width: 908px) {
+    .topNav {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .logo, p {
+        text-align: center;
+    }
+
+    .topNav {
+        text-align: center;
+        margin: 0 15% 2% 0;
+    }
+
+    .sec1 h2 {
+        text-align: center;
+    }
+
+    .sec2Header {
+        margin: 2% 25% 2% 0;
+    }
+
+    .sec3Header {
+        margin-top: 5%;
+    }
+
+    .card {
+        margin-left: 10%;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .addImg {
+        margin-left: 32%;
+    }
+
+    .society, .water, .inspired {
+        display: none;
+    }
+
+    .footerTop {
+        margin: 15px;
+    }
+
+    .footerHeader {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .footerText {
+        width: 50%;
+        text-align: start;
+    }
+
+    .footer .btn-div {
+        text-align: end;
+        padding-bottom: 5%;
+    }
+
+    .footer nav {
+        margin-left: 27%;
+        
+    }
+
+    .email {
+        margin: 20px 0 2px 0
+    }
+
+    .coloNavItem {
+        padding: 5px;
+    }
+
+    .colophon {
+        text-align: center;
+    }
+}
